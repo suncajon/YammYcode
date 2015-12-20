@@ -1,0 +1,149 @@
+@media screen and (max-width: 568px){
+	h1, h2 {font-size: 1.2rem;text-shadow: 1px 1px 0px black;}
+	.portfolio h1 span{font-size: 1.2rem !important;}
+	.portfolio h1{font-size: 1rem !important;padding-top: 15px;}
+	.article{font-size: 0.85rem;}
+	h1{margin-top: 0px}
+	.myContacts p{font-size: 1rem;}
+	.contact h1 {margin-top: 35px;}
+	.demark.visible-sm {font-size:0.5rem; margin-top: 1rem;}
+	.portfolioSite div {display: none;}
+}
+
+@media screen and (min-width: 568px){
+	.article{font-size: 1rem;}
+}
+
+@media screen and (max-width: 768px) {
+   .fat-nav li {font-size: 1rem;}
+   .kiwi .article, .watermelon .article {max-width: 100%;}
+	h1, h2 {text-shadow: 1px 1px 0px black;}
+	.slider h1{right: 15px;margin-top: 1rem;text-align: right;padding-left: 75px;}
+	#fp-nav ul li a span, .fp-slidesNav ul li a span {background:#00ff00;}
+	.light {background-image: url("/images/light_sm.png");}
+	.gear {background-image: url("/images/gear_sm.png");}
+	.analysis {background-image: url("/images/analysis_sm.png");}
+	.plane {background-image: url("/images/plane_sm.png");} 
+	.salad {background-image: url("/images/salad_sm.png");}
+	.shelestyukov{background-image: url("/images/shelestyukov_sm.jpg");}
+	.demarkhome{background-image: url("/images/demarkhome_sm.jpg");}
+	.tab-pane.visible-xs table{font-size: 0.8rem;}
+	.price h1{margin: 50px 0 10px 0 !important;}
+	.conditions p{font-size: 0.6rem !important;}
+	.demarkdesign {background: url(images/video_sm.jpg) center center / cover no-repeat;}
+	.demarkdesign video {display: none;}
+}
+
+@media screen and (max-width: 992px){
+   .section.kiwi{background-image: url(images/kiwi_md.png);background-position: center center;
+   		background-repeat: no-repeat;background-size: contain;}
+   .section.watermelon{background-image: url(images/watermelon_md.png);background-position: center center;
+   		background-repeat: no-repeat;background-size: contain;}
+   	div.lemon {background: url(/images/lemon-large.png) center bottom no-repeat;
+		background-size: contain;}
+	.lemon h1 {text-align: right;padding-bottom: 0;}
+   	.watermelon h1{text-align: right;}	
+   .article {background-color: rgba(30, 30, 30, 0.8);}
+   .slide h2 {font-size: 1.5rem;margin-bottom: 1rem;}
+   .portfolio h1{font-size: 1.5rem;}
+   #contactForm fieldset{border: none !important; margin: 0 !important; padding: 0 !important;}
+	
+}
+
+@media screen and (min-width: 768px) {
+	.fat-nav li {font-size: 2rem;}
+	.kiwi .article, .watermelon .article {margin-left: 40%;}
+	h1, h2 {font-size: 2rem;text-shadow: 2px 2px 0px black;}
+	.portfolio h1 span{font-size: 2rem;}
+	h1{margin-top: 50px}
+	#navSlider{font-size: 0.8rem;}
+	.slider h1{left: 15px;}
+	.slideTitle {padding-bottom: 2.5rem;}
+	.slide h3{font-size: 1.5rem;}
+	.light {background-image: url("/images/light_md.png");}
+	.gear {background-image: url("/images/gear_md.png");}
+	.analysis {background-image: url("/images/analysis_md.png");}
+	.plane {background-image: url("/images/plane_md.png");} 
+	.salad {background-image: url("/images/salad_md.png");}
+	.shelestyukov{background-image: url("/images/shelestyukov_md.jpg");}
+	.demarkhome{background-image: url("/images/demarkhome_md.jpg");}
+	.price .fp-tableCell {padding: 0 25px;}
+}
+
+@media screen and (min-width: 992px) {
+	h1, h2 {font-size: 3rem;}
+	.portfolio h1 span{font-size: 3rem;}
+	.section.kiwi{background: none;}
+	.section.watermelon{background: none;}
+	div.lemon {background: url(/images/lemon-small.png) left bottom no-repeat,
+		url(/images/lemon-large.png) right bottom no-repeat;
+		background-size: 32%, contain;}
+	.kiwi .article, .watermelon .article {max-width: 40%;margin-left: 0;}
+	.kiwi .article {background-color: rgba(71, 80, 66, 0.9);}
+	.watermelon .article {background-color: rgba(83, 73, 70, 0.9);}
+	.lemon .article {background-color: rgba(79, 78, 62, 0.9);}
+	.kiwi .article, .watermelon .article, .lemon .article {border: none;}
+	.lemon div.fp-tableCell {position: absolute;}
+	.lemon h1 {text-align: left;padding-bottom: 2rem;}
+	.slide h2 {font-size: 1.8rem;margin-bottom: 0.5rem;}
+	.portfolio h1{font-size: 1.8rem;}
+	.slide h3{font-size: 1.8rem;}
+	.light {background-image: url("/images/light_lg.png");}
+	.gear {background-image: url("/images/gear_lg.png");}
+	.analysis {background-image: url("/images/analysis_lg.png");}
+	.plane {background-image: url("/images/plane_lg.png");} 
+	.salad {background-image: url("/images/salad_lg.png");}
+	.shelestyukov{background-image: url("/images/shelestyukov_lg.jpg");}
+	.demarkhome{background-image: url("/images/demarkhome_lg.jpg");}
+}
+
+@media screen and (min-width: 1200px) {
+	h1, h2 {font-size: 4rem;text-shadow: 3px 3px 0px black;}
+	.portfolio h1 span{font-size: 4rem;}
+	.article{font-size: 1.4rem;}
+	.slide h2 {font-size: 2.5rem;margin-bottom: 1.2rem;}
+	.portfolio h1{font-size: 2.5rem;}
+	.slide h3{font-size: 2rem;}
+	.light {background-image: url("/images/light_xxl.png");}
+	.gear {background-image: url("/images/gear_xxl.png");}
+	.analysis {background-image: url("/images/analysis_xxl.png");}
+	.plane {background-image: url("/images/plane_xxl.png");} 
+	.salad {background-image: url("/images/salad_xxl.png");}
+	.shelestyukov{background-image: url("/images/shelestyukov_xxl.jpg");}
+	.demarkhome{background-image: url("/images/demarkhome_xxl.jpg");}
+	.priceHeader {font-size: 2rem;}
+	.priceHeader span {font-size: 2.5rem;}
+	.cost {font-size: 2rem;}
+	.about {margin-top: 2rem;font-size: 1.2rem;}
+	.want a {font-size: 1.5rem;}
+	ul.nav-tabs{font-size: 1.2rem;}
+	.myContacts{font-size: 2rem;}
+}
+
+@media screen and (max-width: 1200px){
+	.priceHeader {font-size: 1.2rem;}
+	.priceHeader span {font-size: 2rem;}
+	.cost {font-size: 1.5rem;}
+	.about {margin-top: 1rem;font-size: 1rem;}
+	.want a {font-size: 1rem;}
+	.price h1{margin-top: 0;}
+	.tab-content p, .tab-content ul > li {font-size: 0.7rem !important;}
+	.tab-content table {font-size: 0.65rem !important;}
+	ul.nav-tabs{font-size: 1rem;}
+	.price .fp-tableCell{margin: 5px 0 !important;}
+	.myContacts{font-size: 1.5rem;}
+}
+
+@media screen and (max-height: 860px){
+	.carousel p{display: none;}
+	.carousel h3 {padding-bottom: 30px !important;}
+	.offer p.visible-lg {display: none !important;}
+	.portfolio h1 {text-align: right;}
+	.articlePortfolio{font-size: 0.8rem;}
+	.portfolio h1 span{font-size: 2.5rem;}
+	.portfolio h1{font-size: 1.5rem;}
+}
+
+@media screen and (max-height: 600px){
+	.portfolioSite div {display: none;}
+}

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+Copyright (c) 2015 Daniel Eden
+*/
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  animation-duration: 2s;
+}
+
+.animated.flipOutX,
+.animated.flipOutY,
+.animated.bounceIn,
+.animated.bounceOut{
+  animation-duration: .9s;
+}
+
+@keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(.5, .5, .5);
+  }
+
+  20% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  40% {
+    transform: scale3d(.95, .95, .95);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(1.01, 1.01, 1.01);
+  }
+
+  80% {
+    transform: scale3d(.99, .99, .99);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.bounceIn {
+  animation-name: bounceIn;
+}
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
